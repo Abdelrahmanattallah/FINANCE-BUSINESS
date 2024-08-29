@@ -1,0 +1,191 @@
+/* start home section responsive */
+@media screen and (max-width: 767px) {
+  /* start section home */
+  .home {
+    width: 100%;
+  }
+  .home .slider__holder .slider .slider__content {
+    position: absolute;
+    width: 100%;
+  }
+  .home .slider__holder .slider .slider__content h6 {
+    font-size: 16px;
+    width: 100%;
+  }
+  .home .slider__holder .slider .slider__content h4 {
+    font-size: 24px;
+  }
+  .home .slider__holder .slider .slider__content p {
+    max-width: 100%;
+    font-size: 11px;
+  }
+  /* end section home */
+  /* start section request call */
+  .request__call .container {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .request__call .container .request__content h3 {
+    font-size: 14px;
+  }
+  .request__call .container .request__content p {
+    font-size: 12px;
+    margin: 10px 0 20px;
+  }
+  /* end section request call */
+  /* start services section */
+  .services__holder {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .services__holder .single__service {
+    flex-basis: 100%;
+    background-color: var(--light--gray--color);
+    text-align: center;
+    margin: 20px 0;
+  }
+  /* end services section */
+  /* start section business growth */
+  .business__growth .container {
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .business__growth .left__Side {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .business__growth .left__Side h2 {
+    font-size: 26px;
+    width: 100%;
+  }
+  .business__growth .left__Side p {
+    max-width: 100%;
+  }
+  .business__growth .right__Side {
+    justify-content: center;
+    flex-basis: 100%;
+  }
+  .business__growth .right__Side .single__statistic {
+    flex-basis: 100%;
+  }
+  /* end section business growth */
+  /* start section more__info*/
+  .more__info .more__info__holder {
+    background-color: var(--light--gray--color);
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  .more__info .more__info__holder .img__holder {
+    flex-basis: 100%;
+  }
+  .more__info .more__info__content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .more__info .more__info__content h2 {
+    font-size: 26px;
+  }
+  /* end section more__info*/
+  /* start testmonials section */
+  .testmonials .testmonials__holder {
+    flex-wrap: wrap;
+  }
+  .testmonials .testmonials__holder .testmonial {
+    margin: 0 0 20px;
+    flex-basis: 100%;
+  }
+  .testmonials svg { 
+    display: none;
+  }
+  /* end testmonials section */
+  /* start form section */
+  .send__message form {
+    background-color: var(--primary--color);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .send__message form .inputs__holder {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .send__message form .inputs__holder input {
+    flex-basis: 100%;
+  }
+  /* end form section */
+  /* start partners section  */
+  .partners .container {
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .partners .container img {
+    max-width: 30%;
+    margin: 20px ;
+  }
+  /* end partners section  */
+  /******************************************************start about page*******************************************************/
+  /* start more info section */
+  .about__us .container {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .about__us .about__us__content {
+    flex-basis: 100%;
+    margin-top: 30px;
+  }
+  .about__us .about__us__content h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .about__us .about__us__content p {
+    width: 100%;
+  }
+  .about__us .about__us__imageHolder {
+    flex-basis: 100%;
+  }
+  /* end more info section */
+  /* start team member section */
+  .team__member .team__holder {
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .team__member .member {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  /* end team member section */
+  /******************************************************start contact page*******************************************************/
+  /* start contact us section */
+  .contact__us .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact__us .contact__method {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  /* end contact us section */
+  /* end google map section */
+  /******************************************************start services page*******************************************************/
+  /* start our services section */
+  .our__services .container {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .our__services .services__according {
+    flex-basis: 100%;
+  }
+  .our__services .services__according ul {
+    width: 100%;
+  }
+  .our__services .services__information {
+    flex-basis: 100%;
+  }
+
+  /* end our services section */
+}
+/* end home section responsive */

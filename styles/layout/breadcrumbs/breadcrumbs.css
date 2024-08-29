@@ -1,0 +1,38 @@
+/* start root */
+:root {
+  --primary--color: #a4c639;
+  --white--color: #ffffff;
+  --black--color: #1e1e1e;
+  --gray--color: #666;
+  --light--gray--color: #f7f7f7;
+  --footer--background: #232323;
+  --copy--rights--backGround: #343434;
+  --transperant--dark--background: rgba(250, 250, 250, 0.1);
+}
+/* end root */
+/* start breadcrumbs */
+.bread__crumbs { 
+  width: 100%;
+  height: calc(100vh - 130px);
+  background-image: url(../../../images/page-heading-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bread__crumbs .bread__intro { 
+  text-align: center;
+  color: var(--white--color);
+}
+.bread__crumbs .bread__intro h1 { 
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+.bread__crumbs .bread__intro p { 
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+/* end breadcrumbs */

@@ -1,0 +1,126 @@
+/* start root */
+:root {
+  --primary--color: #a4c639;
+  --white--color: #ffffff;
+  --black--color: #1e1e1e;
+  --gray--color: #666;
+  --light--gray--color: #f7f7f7;
+  --footer--background: #232323;
+  --copy--rights--backGround: #343434;
+  --transperant--dark--background: rgba(250, 250, 250, 0.1);
+}
+/* end root */
+/* start nav */
+header .nav__holder {
+  padding: 20px 0;
+}
+header .nav__holder .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav__holder .container .logo {
+  color: var(--white--color);
+  text-transform: uppercsase;
+  font-size: 24px;
+  font-weight: 700;
+}
+header .nav__holder .container .logo.fixed {
+  color: var(--primary--color);
+}
+header .nav__holder nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav__holder nav a {
+  position: relative;
+  display: block;
+  margin: 0 20px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+  transition: all 0.5s;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+header .nav__holder nav a.fixed {
+  color: var(--black--color);
+}
+header .nav__holder nav a.active {
+  color: var(--primary--color);
+}
+header .nav__holder nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary--color);
+}
+header .nav__holder nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 0;
+  background-color: var(--primary--color);
+  transition: height 0.3s ease-in-out;
+}
+header .nav__holder nav a:hover {
+  color: var(--primary--color);
+}
+header .nav__holder nav a:hover::after {
+  height: 3px;
+}
+header .container .burger__icon {
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--white--color);
+  display: none;
+}
+header .container .burger__icon.active {
+  display: block;
+}
+header .container .burger__icon.fixed {
+  color: var(--primary--color);
+}
+/* end nav */
+
+
+
+
+
+
+/* start nav responsive */
+@media screen and (max-width: 767px) {
+  header .nav__holder {
+    padding: 20px 0;
+  }
+  header .nav__holder .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .nav__holder .container .logo {
+    color: var(--white--color);
+    text-transform: uppercsase;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  header .nav__holder nav {
+    display: none;
+  }
+  header .container .burger__icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--white--color);
+    display: block;
+  }
+  header .container .burger__icon.fixed {
+    color: var(--primary--color);
+  }
+}
+/* end nav responsive */
